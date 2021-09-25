@@ -1,2 +1,3 @@
 # ML_beginner
-## record my machine learning
+## 机器学习初学路线（所有代码都在code对应文件夹下）
+### 1.python基础
