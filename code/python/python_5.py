@@ -19,31 +19,32 @@
 5.如果希望在函数中使用全局变量，而不是创建局部变量，需要用global关键字声明
 
 '''
-'''
-g = lambda x,y,z : x+y+z
-print(g(1,2,3))
 
-def f(x,y,z=99):
-    print('x={},y={},z={}'.format(x,y,z))
-#关键字参数
-f(y=1,x=2,z=0)
-#数量可变参数
-def con(a, **b):
-    print(b)
-con(1,one=1,tow=2)
-'''
+# g = lambda x,y,z : x+y+z
+# print(g(1,2,3))
+#
+# def f(x,y,z=99):
+#     print('x={},y={},z={}'.format(x,y,z))
+# #关键字参数
+# f(y=1,x=2,z=0)
+# #数量可变参数
+# def con(a, **b):
+#     print(b)
+# d = {'one' : 1, 'tow': 2}
+# con(1,**d)
+#
 
-#map
-print(list(map(lambda x : x**2,[1,2,3])))
-print(list(map(lambda x, y : x +y,[1,2,3],[3,2,1])))
-#zip 元素个数与最短的列表一致
-a = [1,2,3]
-b = [4,5,6]
-print(list(zip(a,b)))
-#利用zip将字典键值互换
-d = {'a':1, 'b':2, 'c':3}
-d1 = dict(zip(d.values(),d.keys()))
-print(d1)
+# #map
+# print(list(map(lambda x : x**2,[1,2,3])))
+# print(list(map(lambda x, y : x +y,[1,2,3],[3,2,1])))
+# #zip 元素个数与最短的列表一致
+# a = [1,2,3]
+# b = [4,5,6]
+# print(list(zip(a,b)))
+# #利用zip将字典键值互换
+# d = {'a':1, 'b':2, 'c':3}
+# d1 = dict(zip(d.values(),d.keys()))
+# print(d1)
 
 '''
 1.import 模块名：就是执行文件名为模块名的程序
