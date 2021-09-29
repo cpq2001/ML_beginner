@@ -1,4 +1,4 @@
- '''
+'''
 容器分为：1.序列容器 2.非序列容器
 其中，序列容器有字符串、列表
 非序列容器有集合
@@ -17,6 +17,7 @@
 5.str()可以将括号内的内容转换为字符串
 
 '''
+
 '''
 s = 'CPQQPC'
 s1 = s.lower()
@@ -80,18 +81,18 @@ print('索引为：', x)
 '''
 
 
-s = 'this is a test.'
-t1 = s.split()
-print(t1)
-t2 = list(s)
-print(t2)
-ss = '12::32'
-tt1 = ss.split('::')
-print(tt1)
-tt2 = ss.split(':')
-print(tt2)
-st = ' '.join(t1)
-print(st)
+# s = 'this is a test.'
+# t1 = s.split()
+# print(t1)
+# t2 = list(s)
+# print(t2)
+# ss = '12::32'
+# tt1 = ss.split('::')
+# print(tt1)
+# tt2 = ss.split(':')
+# print(tt2)
+# st = ' '.join(t1)
+# print(st)
 
 
 '''
@@ -110,7 +111,7 @@ p1 = (1, '1')
 print(p1)
 '''
 
-'''
+
 import random
 t = [1,2,5,9,8,4,7,1]
 t.sort()
@@ -120,7 +121,8 @@ print(t)
 x = random.choice(t)
 print(x)
 y = random.random()
-z = random.randint(1,100)
+z = random.randint(80,151)
 print(y,z)
-'''
+q = random.sample(range(80,151),10)
+print(q)
 
