@@ -4,4 +4,6 @@
 ###   联系我（Q:1115175182  email：puikic@163.com）
 ###   所有代码均在code目录下
 #### 1.[python基础](https://github.com/cpq2001/Machine-learning_beginner/tree/main/code/python)
+（参考课程：[Python程序设计-浙江大学](https://www.icourse163.org/course/ZJU-1206456840)）
 #### 2.[matplotlib基础](https://github.com/cpq2001/Machine-learning_beginner/tree/main/code/py_matplotlib)
+（参考课程：[python数据分析——numpy、pandas、matplotlib](https://www.bilibili.com/video/BV1hx411d7jb?p=1)）
